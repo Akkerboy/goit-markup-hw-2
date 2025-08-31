@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    color: #000000;
+     color: #434455;
     background-color: #FFFFFF;
     
 }
@@ -47,6 +47,11 @@ color: #2E2F42;
 
 }
 
+.address-header{
+    font-style: normal
+}
+
+
 .link-contacts{
     font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -55,11 +60,15 @@ color: #2E2F42;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.link-contacts:focus,
+.link-contacts:hover,
+.link-contacts:focus,
 .link-contacts:hover{
     color: #404BBF;
 }
 
-.section-solutions{
+.section-solutions {
     background: #2E2F42;
 }
 
@@ -71,27 +80,26 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;}
+ 
 
-.button{
-    border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #4D5AE5;
 
-}
-.button:hover{
+.button:hover {
     background: #404BBF;
 }
-.button-text{
+
+
+.button{
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
+        background: #4D5AE5;
+        cursor: pointer;
 }
+
+
 .title-webstudio{
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
@@ -124,14 +132,20 @@ color: #2E2F42;
         color: #2E2F42;
 }
 
+
+ .item-team{
+    background-color: #FFFFFF;
+ }
+
 .title-team-member{
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
+        font-size: 36px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #2E2F42;
+        text-transform: capitalize;
+        color: #2e2f42;
 }
 
 .text-team-img{
@@ -151,6 +165,7 @@ color: #2E2F42;
         line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2E2F42;
     }
 

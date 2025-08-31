@@ -11,34 +11,34 @@ a{
 ul{
     list-style: none;
 }
-a.logo{
-    font-family: "Releway", sans-serif;
+.logo{
+    font-family: "Ralewey", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 117%;
+line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5}
 
 span{
-    font-family: "Releway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .logo-titel{
-    font-family: "Releway", sans-serif;
+    font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 117%;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
 }
 
 .link-header{
-    font-family: "Releway", sans-serif;
+    font-family: "Raleway", sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
@@ -61,15 +61,17 @@ color: #2E2F42;
     font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
 
-.link-contacts:focus,
-.link-contacts:hover,
-.link-contacts:focus,
+
 .link-contacts:hover{
+    color: #404BBF;
+}
+
+.link-contacts:focus{
     color: #404BBF;
 }
 
@@ -81,15 +83,19 @@ color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;}
  
 
-.button:focus,
+
 .button:hover {
     background: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
 }
 
 
@@ -109,7 +115,7 @@ color: #2E2F42;
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
+        line-height: 1.20;
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
@@ -118,7 +124,7 @@ color: #2E2F42;
     font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -127,14 +133,23 @@ color: #2E2F42;
     background: #F4F4FD;
 }
 
-.title-section{
+.title-team{
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 36px;
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
+        color: #2E2F42;
+}
+
+.titel-section{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
         color: #2E2F42;
 }
 
@@ -158,7 +173,7 @@ color: #2E2F42;
     font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
@@ -168,7 +183,7 @@ color: #2E2F42;
     font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 36px;
-        line-height: 111%;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
@@ -179,7 +194,7 @@ color: #2E2F42;
         font-family: 'Roboto', sans-serif;
             font-weight: 500;
             font-size: 20px;
-            line-height: 120%;
+            line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2E2F42;
     }
@@ -188,7 +203,7 @@ color: #2E2F42;
         font-family: 'Roboto', sans-serif;
             font-weight: 400;
             font-size: 16px;
-            line-height: 150%;
+            line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
     }
@@ -198,10 +213,10 @@ color: #2E2F42;
     }
 
 .logo-footer{
-    font-family: "Releway", sans-serif;
+    font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 117%;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #F4F4FD;
@@ -211,7 +226,7 @@ color: #2E2F42;
    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;}
 

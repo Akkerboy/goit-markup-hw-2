@@ -20,6 +20,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5}
 
+span{
+    font-family: "Releway", sans-serif;
+}
 
 .logo-titel{
     font-family: "Releway", sans-serif;
@@ -39,6 +42,8 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+
+.link-header:focus,
 .link-header:hover{
     color: #404BBF;
 }
@@ -82,7 +87,7 @@ color: #2E2F42;
     color: #ffffff;}
  
 
-
+.button:focus,
 .button:hover {
     background: #404BBF;
 }
@@ -122,12 +127,13 @@ color: #2E2F42;
     background: #F4F4FD;
 }
 
-.titel-team{
+.title-section{
     font-family: 'Roboto', sans-serif;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 36px;
-        line-height: 111%;
+        line-height: 1.2;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
         text-align: center;
         color: #2E2F42;
 }
